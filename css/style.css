@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: white;
+}
+
+.auth-page::before{
+    content: '';
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 40px);
+    z-index: -1;
+}
+
+.website{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.website .website-name{
+    font-size: 55px;
+    font-weight: bold;
+    color: #ed602a;
+}
+
+.auth-page.register .register-title{
+    margin-top: 120px;
+}
+
+.auth-page .title{
+    font-size: 40px;
+}
+
+.auth-page .subtitle{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.auth-form{
+    padding: 35px 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.082);
+}
+
+.auth-form .auth-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.auth-form b{
+    font-size: 15px;
+}
+
+.auth-form .orange{
+    color: #ed602a;
+}
+
+.auth-form label{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.auth-form .input-field input{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #b6b6b67a;
+    font-size: 13px;
+    outline: none;
+}
+
+.auth-form .input-field input:focus{
+    border-bottom: 1px solid #ed602a;
+}
+
+.auth-form label.remember-me{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.auth-form .forget-password a{
+    font-size: 13px;
+    font-weight: 100;
+    color: #ed602a;
+    text-decoration: none;
+}
+
+.auth-form .submit button{
+    color: white;
+    background-color: #ed602a;
+    max-width: 300px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 800px){
+
+    .auth-page.register .register-title{
+        margin-top: 10px;
+    }
+
+    .auth-page .title{
+        font-size: 30px;
+    }
+
+    .auth-page .subtitle{
+        font-size: 12px;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+
+    .auth-page .website{
+        height: 60px;
+    }
+
+    .auth-page .website-name{
+        font-size: 35px;
+    }
+
+    .auth-page::before{
+        content: none;
+    }
+}

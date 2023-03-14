@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="website">
+            <h1 class="website-name">Fawry</h1>
+        </div>
+        <div class="row auth-page register d-flex">
+            <div class="register-title col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="d-flex flex-column gap-4">
+                    <h3 class="title"><b>Welcome to </b> your super <b>Construction Supplies mall</b></h3>
+                    <p class="subtitle w-75">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quis, ipsa tenetur perspiciatis porro aut ullam tempora dolor enim, neque illum, nisi magni.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="auth-form">
+                    <form class="d-flex flex-column" enctype="multipart/form-data">
+                        <h5 class="mb-3 auth-title">Sign up</h5>
+                        <b>If you already have an account login  <br>
+                        you can <span class="orange">Login now !</span></b>
+
+                        <input type="hidden" name="type" value="buyer">
+
+                        <div class="input-field d-flex flex-column mt-4 mb-3">
+                            <label for="email">Email address</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email address">
+                        </div>
+
+                        <div class="d-flex justify-content-between gap-3">
+                            <div class="input-field d-flex flex-column w-50">
+                                <label for="fname">First name</label>
+                                <input type="text" name="first_name" id="fname" placeholder="First name">
+                            </div>
+                            <div class="input-field d-flex flex-column w-50">
+                                <label for="lname">Last name</label>
+                                <input type="text" name="last_name" id="lname" placeholder="Last name">
+                            </div>
+                        </div>
+
+                        <div class="input-field d-flex flex-column mb-2 mt-3">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+
+                        <div class="input-field d-flex flex-column mb-2 mt-3">
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" placeholder="+966 21 212 2121">
+                        </div>
+
+                        <div class="input-field d-flex flex-column mb-2 mt-3">
+                            <label for="company-name">Company name</label>
+                            <input type="text" name="company_name" id="company-name" placeholder="Enter Company name">
+                        </div>
+
+                        <div class="d-flex justify-content-between gap-3 mt-3">
+                            <div class="input-field d-flex flex-column w-50">
+                                <label for="serial-number">Company Serial Number</label>
+                                <input type="number" name="serial_number" id="serial-number" placeholder="Enter Company Serial Number">
+                            </div>
+                            <div class="input-field d-flex flex-column w-50">
+                                <label for="serial-number2">Company Serial Number</label>
+                                <input type="number" name="serial_number2" id="serial-number2" placeholder="Enter Company Serial Number 2">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between gap-3 mt-3">
+                            <div class="input-field d-flex flex-column w-50">
+                                <label for="address">Address</label>
+                                <input type="text" name="serial_number" id="address" placeholder="Enter Company Address">
+                            </div>
+                            <div class="input-field d-flex flex-column w-50">
+                                <label for="company-file">Company File</label>
+                                <input class="form-control" type="file" name="company_file" id="company-file">
+                            </div>
+                        </div>
+
+
+                        <div class="submit d-flex justify-content-center mt-5">
+                            <button type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+</body>
+</html>
