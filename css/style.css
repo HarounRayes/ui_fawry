@@ -75,6 +75,7 @@ body{
     border-bottom: 1px solid #b6b6b67a;
     font-size: 13px;
     outline: none;
+    padding: 10px;
 }
 
 .auth-form .input-field input:focus{
@@ -278,6 +279,7 @@ li{
     border-bottom: 1px solid #b6b6b67a;
     font-size: 13px;
     outline: none;
+    padding: 10px;
 }
 
 .contact-form .input-field textarea{
@@ -300,6 +302,99 @@ li{
     border: none;
     border-radius: 20px;
 }
+
+
+/*                 Order                 */
+
+
+
+.steps .step .circle{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #f3eeee;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.steps .step .circle .dot{
+    width: 13px;
+    height: 13px;
+    background: #f3eeee;
+    display: block;
+    border-radius: 50%;
+}
+
+.steps .step .circle.active .dot{
+    background: #8b5fa9;
+}
+
+.steps .step .circle.active{
+    border: 2px solid #8b5fa9;
+}
+
+
+.order-form .wrapper{
+    border: 1px solid #f3eeee;
+}
+
+
+.order-form .input-field input,
+.order-form .input-field textarea{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #b6b6b67a;
+    font-size: 13px;
+    outline: none;
+    padding: 10px;
+}
+
+
+.order-form .input-field input:focus,
+.order-form .input-field textarea:focus{
+    border-bottom: 1px solid #ed602a;
+}
+
+.order-form  .address .left input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.order-form  .address .right i{
+    font-size: 25px;
+    color: #8b5fa9;
+    cursor: pointer;
+}
+
+.order-form  .add-address{
+    color: #8b5fa9;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.order-form  .back-continue button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.order-form  .back-continue button.back{
+    background: #f3eeee;
+    color: #939393;
+}
+
+.order-form  .back-continue button.continue{
+    background: #8b5fa9;
+    color: #fff;
+}
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 800px){
