@@ -104,6 +104,154 @@ body{
     border-radius: 20px;
 }
 
+/*                 Components                 */
+li{
+    list-style: none;
+}
+
+.top-navbar li a{
+    text-decoration: none;
+    color: #939393;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-navbar{
+    background: #f4f4f4;
+    height: 45px;
+    padding: 0 20px;
+    line-height: 45px;
+}
+
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#mainNavbar{
+    padding-left:  50px;
+    padding-top: 20px;
+}
+
+.navbar-dark .navbar-brand{
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+.navbar-nav .nav-link{
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+.display-4{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.lead{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.navbar.scrolled {
+    background: rgb(34, 31, 31);
+    transition: background 500ms;
+}
+
+.font-weight-light{
+    font-family: 'Source Serif Pro', serif;
+}
+/*                 Home Screen               */
+.tranding-products{
+    margin: 50px 0;
+}
+
+.tranding-products .img{
+    position: relative;
+}
+
+.tranding-products .img::before{
+    content: '';
+    width: 175px;
+    height: 175px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: -10;
+}
+.tranding-products .img img{
+    z-index: 100;
+}
+
+
+.single-product{
+    border: 1px solid #93939350;
+    border-radius: 10px;
+}
+
+.single-product .heart-icon{
+    width: 30px;
+    height: 30px;
+    background: #f4f4f4;
+    color: #888;
+    border-radius: 50%;
+}
+
+.single-product .save-price{
+    font-size: 13px;
+    font-weight: 400;
+    color: #8b5fa9;
+}
+
+.single-product .links .sp-link{
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.single-product .links .sp-link.ins{
+    background: #44c972;
+}
+.single-product .links .sp-link.cash{
+    background: #8b5fa9;
+}
+
+
+.single-product .company-infos{
+    background: #f4f4f4;
+}
+
+.single-product .company-infos .infos p{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.single-product .company-infos .infos span{
+    font-size: 10px;
+}
+
+.single-product .add-cart a{
+    background: #8b5fa9;
+    color: white;
+    padding: 7px 15px;
+    display: block;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.single-product .add-cart a:hover{
+    opcaity: 0.8;
+}
+
+
 
 @media only screen and (max-width: 800px){
 
