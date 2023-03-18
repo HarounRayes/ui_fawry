@@ -252,6 +252,55 @@ li{
 }
 
 
+/*                 Contact                 */
+
+
+.contact-form{
+    padding: 35px 30px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+}
+
+.contact-form .form-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-form label{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contact-form .input-field input,
+.contact-form .input-field textarea{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #b6b6b67a;
+    font-size: 13px;
+    outline: none;
+}
+
+.contact-form .input-field textarea{
+    height: 100px;
+    resize: none;
+}
+
+.contact-form .input-field input:focus,
+.contact-form .input-field textarea:focus{
+    border-bottom: 1px solid #ed602a;
+}
+
+.contact-form .submit button{
+    color: white;
+    background-color: #8b5fa9;
+    max-width: 300px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
 
 @media only screen and (max-width: 800px){
 
