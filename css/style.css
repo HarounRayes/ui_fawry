@@ -333,7 +333,19 @@ li{
 }
 
 
-.order-form .wrapper{
+.order-form,
+.order-payment{
+    display: none;
+}
+
+.order-form.active,
+.order-payment.active{
+    display: block;
+}
+
+
+.order-form .wrapper,
+.order-payment .wrapper{
     border: 1px solid #f3eeee;
 }
 
@@ -371,7 +383,8 @@ li{
     font-size: 17px;
 }
 
-.order-form  .back-continue button{
+.order-form  .back-continue button,
+.order-payment .back-continue button{
     padding: 10px 25px;
     border: none;
     border-radius: 20px;
@@ -379,12 +392,14 @@ li{
     color: white;
 }
 
-.order-form  .back-continue button.back{
+.order-form  .back-continue button.back,
+.order-payment  .back-continue button.back{
     background: #f3eeee;
     color: #939393;
 }
 
-.order-form  .back-continue button.continue{
+.order-form  .back-continue button.continue,
+.order-payment  .back-continue button.continue{
     background: #8b5fa9;
     color: #fff;
 }
@@ -452,6 +467,16 @@ li{
     color: #fff;
 }
 
+
+
+/*                 Done                 */
+
+.back-to-home a{
+    text-decoration: none;
+    color: #8b5fa9;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 
 
