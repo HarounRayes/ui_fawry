@@ -337,7 +337,6 @@ li{
     border: 1px solid #f3eeee;
 }
 
-
 .order-form .input-field input,
 .order-form .input-field textarea{
     height: 35px;
@@ -390,6 +389,68 @@ li{
     color: #fff;
 }
 
+.order-product p.name{
+    font-size: 15px;
+}
+
+.order-product div.right i{
+    font-size: 20px;
+    color: #8b5fa9;
+}
+
+.order-product div.right i{
+    font-size: 20px;
+    color: #8b5fa9;
+}
+
+.order-product div.left.product span{
+    font-size: 20px;
+    color: #8b5fa9;
+    margin-top: 10px;
+    display: block;
+}
+
+.order-product .items > div {
+    border: 2px solid #f3eeee;
+}
+
+.order-product .items .left span {
+    color: #8b5fa9;
+}
+
+.order-product .items .label-price {
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.order-product .items > div .color {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.order-product .items > div .plus,
+.order-product .items > div .minus {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #939393;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.order-product .items > div .value{
+    font-size: 15px;
+}
+
+.order-product .items > div .plus:hover,
+.order-product .items > div .minus:hover {
+    background: #8b5fa9;
+    color: #fff;
+}
 
 
 
