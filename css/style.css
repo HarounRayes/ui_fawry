@@ -479,7 +479,23 @@ li{
 }
 
 
+/*                Profile                 */
 
+.profile-list li{
+    border: 1px solid #f3eeee;
+    background: #f3eeee;
+    border-radius: 5px;
+}
+
+.profile-list li.active a{
+    color: #8b5fa9;
+}
+
+.profile-list li a{
+    display: block;
+    text-decoration: none;
+    color: #939393;
+}
 
 
 
