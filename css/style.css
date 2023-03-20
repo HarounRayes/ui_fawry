@@ -544,6 +544,7 @@ li{
 
 .profile-wishlist .bond,
 .profile-payments .bond,
+.profile-help .bond,
 .profile-orders .bond{
     border: 1px solid #f3eeee;
     border-radius: 5px;
@@ -642,6 +643,47 @@ li{
     content: '';
     background: #8b5fa9;
 }
+
+
+
+/*              Profile Help             */
+
+
+
+
+.profile-help .input-field input,
+.profile-help .input-field select{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #b6b6b67a;
+    background: transparent;
+    font-size: 13px;
+    outline: none;
+    padding: 10px;
+}
+
+.profile-help .input-field input:focus{
+    border-bottom: 1px solid #8b5fa9;
+}
+
+.profile-help label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.profile-help .profile-btn{
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    background: #8b5fa9;
+}
+
+.profile-help .profile-btn:hover{
+    background: #8b5fFF;
+}
+
 
 
 @media only screen and (max-width: 800px){
