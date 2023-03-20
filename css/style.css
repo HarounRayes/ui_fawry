@@ -537,6 +537,19 @@ li{
 }
 
 
+
+
+/*                Profile Wishlist                 */
+
+
+.profile-wishlist .bond{
+    border: 1px solid #f3eeee;
+    border-radius: 5px;
+    background: #f4f4f4;
+}
+
+
+
 @media only screen and (max-width: 800px){
 
     .auth-page.register .register-title{
