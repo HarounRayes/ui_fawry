@@ -60,8 +60,9 @@ body{
     font-size: 15px;
 }
 
-.auth-form .orange{
-    color: #ed602a;
+
+.orange{
+    color: #8b5fa9;
 }
 
 .auth-form label{
@@ -538,16 +539,52 @@ li{
 
 
 
+/*                Profile Wishlist & Orders               */
 
-/*                Profile Wishlist                 */
 
-
-.profile-wishlist .bond{
+.profile-wishlist .bond,
+.profile-orders .bond{
     border: 1px solid #f3eeee;
     border-radius: 5px;
     background: #f4f4f4;
 }
 
+.profile-orders .profile-order-item .top{
+    cursor: pointer;
+}
+
+.profile-orders .profile-order-item .bottom{
+    display: none !important;
+}
+
+.profile-orders .profile-order-item .bottom.active{
+    display: block !important;
+}
+
+.profile-orders .profile-order-item .rate-review textarea{
+    border: 1px solid #f3eeee;
+    border-radius: 5px;
+    background: #f4f4f4;
+    padding: 10px;
+    outline: none;
+    font-size: 13px;
+    resize: none;
+    max-width: 500px;
+    aspect-ratio: 7/2;
+}
+
+.profile-orders .profile-btn{
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    background: #8b5fa9;
+}
+
+.profile-orders .profile-btn:hover{
+    background: #8b5fFF;
+}
 
 
 @media only screen and (max-width: 800px){
