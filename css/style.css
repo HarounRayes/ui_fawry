@@ -543,6 +543,7 @@ li{
 
 
 .profile-wishlist .bond,
+.profile-payments .bond,
 .profile-orders .bond{
     border: 1px solid #f3eeee;
     border-radius: 5px;
@@ -584,6 +585,62 @@ li{
 
 .profile-orders .profile-btn:hover{
     background: #8b5fFF;
+}
+
+
+
+/*              Profile Payment             */
+
+
+
+.profile-payments .profile-payment-item .item{
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
+.profile-payments .profile-payment-item .item.active{
+    color: #8b5fa9;
+    font-weight: bold;
+}
+
+.profile-payments .profile-payment-item .item .checkout-item{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f3eeee;
+}
+
+
+.profile-payments .profile-payment-item .top{
+    cursor: pointer;
+}
+.profile-payments .profile-payment-item .bottom{
+    display: none !important;
+}
+
+.profile-payments .profile-payment-item .bottom.active{
+    display: flex !important;
+}
+
+.profile-payments .profile-payment-item .item .checkout-item::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #f3eeee;
+}
+
+.profile-payments .profile-payment-item .item.active .checkout-item{
+    border: 2px solid #8b5fa9;
+}
+
+.profile-payments .profile-payment-item .item.active .checkout-item::before{
+    content: '';
+    background: #8b5fa9;
 }
 
 
