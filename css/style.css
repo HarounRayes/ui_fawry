@@ -483,7 +483,7 @@ li{
 
 .profile-list li{
     border: 1px solid #f3eeee;
-    background: #f3eeee;
+    background: #f4f4f4;
     border-radius: 5px;
 }
 
@@ -497,6 +497,44 @@ li{
     color: #939393;
 }
 
+.profile-block{
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+
+.profile .input-field input,
+.profile .input-field select{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #b6b6b67a;
+    background: transparent;
+    font-size: 13px;
+    outline: none;
+    padding: 10px;
+}
+
+.profile .input-field input:focus{
+    border-bottom: 1px solid #8b5fa9;
+}
+
+.profile label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.profile .profile-btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background: #8b5fa9;
+}
+
+.profile .profile-btn:hover{
+    background: #8b5fFF;
+}
 
 
 @media only screen and (max-width: 800px){

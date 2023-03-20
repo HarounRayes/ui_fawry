@@ -33,7 +33,7 @@
     <br>
     <br>
 
-    <div class="container">
+    <div class="container profile">
         <span class="search-label fs-6">Home / Profile</span>
 
         <div class="infos mt-4 mb-4">
@@ -113,7 +113,79 @@
                 </ul>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                Here is the content
+                <div class="d-flex flex-column gap-3">
+                    <div class="profile-block p-4 rounded">
+                        <div class="title mb-3">
+                            <h3 class="fw-bold fs-6">Profile Details</h3>
+                        </div>
+                        <div class="form">
+                            <form action="" method="post">
+                                <div class="d-flex justify-content-between gap-3 mb-3">
+                                    <div class="input-field d-flex flex-column w-50">
+                                        <label for="email">email</label>
+                                        <input type="email" name="email" id="email" placeholder="Email address">
+                                    </div>
+                                    <div class="input-field d-flex flex-column w-50">
+                                        <label for="fname">First name</label>
+                                        <input type="text" name="first_name" id="fname" placeholder="First name">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between gap-3 mb-3">
+                                    <div class="input-field d-flex flex-column w-50">
+                                        <label for="lname">Last name</label>
+                                        <input type="text" name="last_name" id="lname" placeholder="Last name">
+                                    </div>
+                                    <div class="input-field d-flex flex-column w-50">
+                                        <label for="sex">Sex</label>
+                                        <select name="sex" id="sex" class="p-0">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between gap-3 mb-3">
+                                    <div class="input-field d-flex flex-column w-50">
+                                        <label for="phone">Phone</label>
+                                        <input type="text" name="phone" id="phone" placeholder="Phone">
+                                    </div>
+
+                                    <div class="input-field d-flex flex-column w-50">
+                                        <label for="country">Country</label>
+                                        <input type="text" name="country" id="country" placeholder="country">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mt-3">
+                                    <button type="submit" class="profile-btn">Save Changes</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="profile-block p-4 rounded">
+                        <div class="title mb-4">
+                            <h3 class="fw-bold fs-6">Change password</h3>
+                        </div>
+                        <div class="form">
+                            <form action="" method="post" class="d-flex flex-column gap-3">
+                                <div class="input-field d-flex flex-column gap-1 mb-2">
+                                    <label for="oldpassword">Enter Old Password</label>
+                                    <input type="password" name="old_password" id="oldpassword" placeholder="Enter your old password">
+                                </div>
+                               <div class="input-field d-flex flex-column gap-1 mb-2">
+                                    <label for="newpassword">Enter New Password</label>
+                                    <input type="password" name="new_password" id="newpassword" placeholder="Enter your new password">
+                                </div>
+                                <div class="input-field d-flex flex-column gap-1 mb-2">
+                                    <label for="confirmpassword">Confirm New Password</label>
+                                    <input type="password" name="confirm_password" id="confirmpassword" placeholder="Confirm your new password">
+                                </div>
+
+                                <div class="d-flex justify-content-end">
+                                    <button type="submit" class="profile-btn">Save Changes</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
