@@ -1,0 +1,173 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/8d135230fd.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="top-navbar">
+    <div class="container">
+        <div class="d-flex justify-content-end">
+            <ul class="d-flex gap-3">
+                <li><a href="#">Register as a vendor</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#"> | </a> </li>
+                <li><a href="#">Arabic</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container edit-product-card">
+    <span class="card-label fs-6">Home / card / Product name here</span>
+
+
+    <div class="d-flex justify-content-center align-items-center flex-column gap-2 mt-4">
+        <div class="product-icon">
+            <img src="./img/3-item.png" alt="item iconicon">
+        </div>
+        <div class="product-details">
+            <h3>Product name here</h3>
+            <div class="orange">
+                <span>1500.00 SAR</span>
+            </div>
+            <div class="rating">
+                ranting here
+            </div>
+        </div>
+        <div class="company-infos d-flex align-items-center gap-3 p-2">
+            <div class="c-icon">
+                <img src="img/3-item.png" alt="company icon" width="30">
+            </div>
+            <div class="infos d-flex flex-column gap-0">
+                <p class="m-0 fw-bold">Company name</p>
+                <span class="fs-6">Company name</span>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center gap-2 my-4 w-100">
+            <button class="btn btn-danger">delete</button>
+            <div class="quantity-label">
+                <span>product quantity</span>
+            </div>
+            <select name="payment-type" id="payment-type">
+                <option value="" disabled>Select payment method</option>
+                <option value="cash">cash payment</option>
+                <option value="installment">Installment payment</option>
+            </select>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="inc-item d-flex align-items-center gap-3 p-3">
+                    <span>teee</span>
+                    <div class="d-flex align-items-center">
+                        <input type="number" class="qty-input" value="0" min="0">
+                        <div class="d-flex flex-column gap-0">
+                            <span class="fs-4 inc-btn increment">+</span>
+                            <span class="fs-4 inc-btn decrement">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="inc-item d-flex align-items-center gap-3 p-3">
+                    <span>teee</span>
+                    <div class="d-flex align-items-center">
+                        <input type="number" class="qty-input" value="0" min="0">
+                        <div class="d-flex flex-column gap-0">
+                            <span class="fs-4 inc-btn increment">+</span>
+                            <span class="fs-4 inc-btn decrement">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="inc-item d-flex align-items-center gap-3 p-3">
+                    <span>teee</span>
+                    <div class="d-flex align-items-center">
+                        <input type="number" class="qty-input" value="0" min="0">
+                        <div class="d-flex flex-column gap-0">
+                            <span class="fs-4 inc-btn increment">+</span>
+                            <span class="fs-4 inc-btn decrement">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="inc-item d-flex align-items-center gap-3 p-3">
+                    <span>teee</span>
+                    <div class="d-flex align-items-center">
+                        <input type="number" class="qty-input" value="0" min="0">
+                        <div class="d-flex flex-column gap-0">
+                            <span class="fs-4 inc-btn increment">+</span>
+                            <span class="fs-4 inc-btn decrement">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center gap-5 my-4">
+            <div class="quantity d-flex flex-column align-items-center gap-2">
+                <span class="label fw-bold">quantity</span>
+                <span class="px-4 py-1 rounded border">0</span>
+            </div>
+            <div class="total d-flex flex-column align-items-center gap-2">
+                <span class="label fw-bold">total</span>
+                <span class="px-4 py-1 rounded border">0</span>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center gap-5 my-4">
+            <button class="btn btn-success">save changes</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+    $(document).ready(function () {
+        $('.increment').click(function () {
+            var $input = $(this).parent().parent().find('input');
+            var count = parseInt($input.val()) + 1;
+            $input.val(count);
+            $input.change();
+            return false;
+        });
+
+        $('.decrement').click(function () {
+            var $input = $(this).parent().parent().find('input');
+            var count = parseInt($input.val()) - 1;
+            count = count < 0 ? 0 : count;
+            $input.val(count);
+            $input.change();
+            return false;
+        });
+    });
+
+</script>
+
+</body>
+</html>
