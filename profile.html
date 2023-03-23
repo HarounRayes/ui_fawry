@@ -34,14 +34,31 @@
     <br>
 
     <div class="container profile">
-        <span class="search-label fs-6">Home / Profile</span>
+        <div class="profile-images position-relative d-flex align-items-center gap-3">
+            <div class="position-middle d-flex align-items-start gap-3">
+                <form class="profile-img flex-shrink-0" enctype="multipart/form-data">
+                    <img src="./img/3-item.png" alt="icon">
+                    <label for="profilepick" class="change-icon d-flex align-items-center justify-content-center">
+                       <i class="fa-solid fa-camera"></i>
+                    </label>
+                    <input type="file" name="profile-image" id="profilepick" accept="image/*" class="hide-input">
 
-        <div class="infos mt-4 mb-4">
-            <h3 class="fs-3 fw-bold m-0">Bio Name Lorem</h3>
-            <span class="fs-6 fw-bold">email@address.com</span>
+                </form>
+                <div class="infos mt-4 mb-4">
+                    <h3 class="fs-3 fw-bold m-0">Bio Name Lorem</h3>
+                    <span class="fs-6 fw-bold">email@address.com</span>
+                </div>
+            </div>
+            <form class="cover-img" enctype="multipart/form-data">
+                <img src="./img/cover.jpeg" alt="cover image">
+                <label for="profilepick1" class="change-cover d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-camera"></i>
+                </label>
+                <input type="file" name="profile-image" id="profilepick1" accept="image/*" class="hide-input">
+            </form>
         </div>
 
-        <div class="row g-3 my-3">
+        <div class="row g-3 mt-0">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <ul class="profile-list d-flex flex-column gap-1 m-0 p-0">
                     <li class="w-100 active">

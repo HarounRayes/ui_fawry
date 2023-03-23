@@ -488,6 +488,90 @@ li{
     border-radius: 5px;
 }
 
+.profile .profile-images{
+    height: 300px;
+}
+
+.profile .profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #939393;
+    background: #f3eeee;
+    position: relative;
+}
+
+.profile .profile-img,
+.profile .infos{
+    z-index: 1;
+}
+
+.profile .position-middle{
+    color: #FFF;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.profile .cover-img{
+    width: 100%;
+    height: 300px;
+    background: #f3eeee;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile .change-cover{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: #8b5fa9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile .cover-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.profile .profile-img .change-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #8b5fa9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile .profile-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile .hide-input{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
 .profile-list li.active a{
     color: #8b5fa9;
 }
